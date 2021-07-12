@@ -46,7 +46,6 @@
 			<p>(<p style = "color:red">*</p>)What kind of service would you like done? </p>
 			<select name="Servicestype"> 
 				<option value="NULL">None</option>
-			  <option value="ML">Machine Learning Application</option>
 			  <option value="W">Website</option>
 			  <option value="GA">General Application</option>
 			</select>

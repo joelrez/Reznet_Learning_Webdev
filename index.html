@@ -12,7 +12,7 @@
 				<h1><a href = "index.html"><img src = "images/ReznetLogo.png" class = "logo"></img></a>Freelance Programming</h1>
 				<ul>
 					<img src = "images/slash.png" id = "slash"> </img>
-					<li><a href = "https://docs.google.com/document/d/1lelmwzc_r5R5fTcQo_bjOv5skc6zkkPT5hnRPHMIRho/edit?usp=sharing">Resumé</a></li>
+					<li><a href = "">Resumé</a></li>
 					<img src = "images/slash.png" id = "slash"> </img>
 					<li><a href = "order.php">Order</a></li>
 					<img src = "images/slash.png" id = "slash"></img>

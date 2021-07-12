@@ -1,0 +1,29 @@
+body{
+	height: 400px;
+}
+
+#top{
+	position: relative;
+	top: 100px;
+}
+
+header{
+	font-family:arial;
+	position: relative;
+	top: 400px;
+	height:400px;
+}
+
+header{
+	position: relative;
+	top: -50px;
+	color: 
+}
+
+header h1{
+	margin-left: 20px;
+}
+
+header p{
+	margin-left: 40px;
+}

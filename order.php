@@ -117,8 +117,7 @@
 		<footer>
 				<ul>
 					<h1>Follow us on social media</h1>
-					<li><a href = "https://github.com/bozingle"><img src = "images/Git.png" id = "Git"></img></a></li>
-					<li><a href = "https://www.facebook.com/Reznet-249216932442505/?modal=admin_todo_tour"><img src = "https://ubisafe.org/images/facebook-vector-round-5.png" id = "FB"></img></li>
+					<li><a href = "https://github.com/joelrez?tab=repositories"><img src = "images/Git.png" id = "Git"></img></a></li>
 				</ul>
 		</footer>
 	</body>

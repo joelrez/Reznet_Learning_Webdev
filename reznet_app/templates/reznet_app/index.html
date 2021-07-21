@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang = "en">
+	{% load static %}
+	<head>
+		<meta charset="UTF-8">
+		<title>Reznet</title>
+		<link href = "{% static 'nav.css' %}" rel="stylesheet" type = "text/css" />
+		<link href = "{% static 'index.css' %}" rel="stylesheet" type = "text/css" />
+	</head>
+	<body>
+		<div id = "banner">
+			<nav>
+				<h1><a href = "index.html"><img src = "{% static 'ReznetLogo.png' %}" class = "logo"></img></a>Freelance Programming</h1>
+				<ul>
+					<img src = "{% static 'slash.png' %}" id = "slash"> </img>
+					<li><a href = "">Resumé</a></li>
+					<img src = "{% static 'slash.png' %}" id = "slash"> </img>
+					<li><a href = "{% url 'orders' %}">Order</a></li>
+					<img src = "{% static 'slash.png' %}" id = "slash"></img>
+					<li><a href = "{% url 'services' %}">Services</a></li>
+					<img src = "{% static 'slash.png' %}" id = "slash"> </img>
+					<li><a href = "{% url 'home' %}">Home</a></li>
+					<img src = "{% static 'slash.png' %}" id = "slash"> </img>
+				<ul>
+			</nav>
+		</div>
+		<div>
+			<img class = "wrapper" src = "{$ static 'Wrapper.png' %}"></img>
+			<ul class = "media1">
+				<ul class = "media1Top">
+					<h1> About</h1>
+					<p>I am a recent freelance programmer that is dedicated to providing excellent services in web-development, and general applications. Prices and fees can be found on the services page.</p>
+				</ul>
+				<hr>
+				<img src = "{% static 'Display.jpg' %}" id = "sideImage1"></img>
+				<ul	 class = "media1Bottom">
+					<h1 style = "color:#001BBA">Client</h1><h1>-focused Services</h1>
+					<p> </p>
+					<p>I strive to provide my clients with reliable applications in a timely manner. The applications produced are each individually adapted to the needs of my clients.</p>
+				</ul>
+			</ul>
+			
+			</ul>
+		</div>
+		<footer>
+				<ul>
+					<h1>Follow me on social media</h1>
+					<li><a href = "https://github.com/joelrez?tab=repositories"><img src = "{% static 'Git.png' %}" id = "Git"></img></a></li>
+				</ul>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang = "en">
+	{% load static %}
+	<head>
+		<meta charset="UTF-8">
+		<title>Reznet: Services</title>
+		<link href = "{% static 'nav.css' %}" rel="stylesheet" type = "text/css" />
+		<link href = "{% static 'services.css' %}" rel="stylesheet" type = "text/css" />
+	</head>
+	<body>
+		<div id = "banner">
+			<nav>
+				<h1><a href = "index.html"><img src = "{% static 'ReznetLogo.png' %}" class = "logo"></img></a>Freelance Programming</h1>
+				<ul>
+					<img src = "{% static 'slash.png' %}" id = "slash"> </img>
+					<li><a href = "">Resumé</a></li>
+					<img src = "{% static 'slash.png' %}" id = "slash"> </img>
+					<li><a href = "{% url 'orders' %}">Order</a></li>
+					<img src = "{% static 'slash.png' %}" id = "slash"></img>
+					<li><a href = "{% url 'services' %}">Services</a></li>
+					<img src = "{% static 'slash.png' %}" id = "slash"> </img>
+					<li><a href = "{% url 'home' %}">Home</a></li>
+					<img src = "{% static 'slash.png' %}" id = "slash"> </img>
+				<ul>
+			</nav>
+		</div>
+		<header id = "top">
+			<h1>Website</h1>
+			<h1 style = "color:green">$</h1>
+			<p>Making websites. </p>
+		</header>
+		<header>
+			<h1>General Application</h1>
+			<h1 style = "color:green">$</h1>
+			<p>Any application.</p>
+		</header>
+		<footer>
+				<ul>
+					<h1>Follow me on social media</h1>
+					<li><a href = "https://github.com/joelrez?tab=repositories"><img src = "{% static 'Git.png' %}" id = "Git"></img></a></li>
+				</ul>
+		</footer>
+	</body>
+</html>
